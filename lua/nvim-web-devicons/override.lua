@@ -598,7 +598,7 @@ devicons.set_icon({
   },
   ["package.json"] = {
     icon = get("npm"),
-    color = palette.bright_red,
+    color = palette.red,
     name = "PackageJson",
   },
   ["package-lock.json"] = {
@@ -846,11 +846,16 @@ devicons.set_icon({
     color = palette.bright_black,
     name = "Terminal",
   },
-  -- ["pdf"] = {
-  --   icon = "",
-  --   color = "#b30b00",
-  --   name = "Pdf"
-  -- },
+  ["pdf"] = {
+    icon = get("file"),
+    color = palette.red,
+    name = "Pdf"
+  },
+  ["txt"] = {
+    icon = get("file"),
+    color = palette.white,
+    name = "Text"
+  },
   -- ["kt"] = {
   --   icon = "𝙆",
   --   color = "#F88A02",
