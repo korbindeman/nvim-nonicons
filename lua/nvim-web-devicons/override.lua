@@ -311,6 +311,16 @@ devicons.set_icon({
     color = palette.bright_blue,
     name = "Dockerfile",
   },
+  [".dockerignore"] = {
+    icon = get("docker"),
+    color = palette.bright_blue,
+    name = "DockergIgnore",
+  },
+  ["docker-compose.yml"] = {
+    icon = get("docker"),
+    color = palette.bright_blue,
+    name = "DockerCompose",
+  },
   -- ["dump"] = {
   --   icon = "",
   --   color = "#dad8d8",
@@ -485,6 +495,11 @@ devicons.set_icon({
     icon = get("javascript"),
     color = palette.yellow,
     name = "Js",
+  },
+  ["cjs"] = {
+    icon = get("javascript"),
+    color = palette.yellow,
+    name = "Cjs",
   },
   ["json"] = {
     icon = get("json"),
@@ -688,7 +703,7 @@ devicons.set_icon({
   -- },
   ["rs"] = {
     icon = get("rust"),
-    color = palette.bright_black,
+    color = palette.orange,
     name = "Rs",
   },
   ["rss"] = {
