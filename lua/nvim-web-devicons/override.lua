@@ -862,7 +862,7 @@ devicons.set_icon({
     name = "Key",
   },
   ["pem"] = {
-    icon = get("pem"),
+    icon = get("key"),
     color = palette.yellow,
     name = "Pem",
   },
