@@ -849,12 +849,22 @@ devicons.set_icon({
   ["pdf"] = {
     icon = get("file"),
     color = palette.red,
-    name = "Pdf"
+    name = "Pdf",
   },
   ["txt"] = {
     icon = get("file"),
     color = palette.white,
-    name = "Text"
+    name = "Text",
+  },
+  ["key"] = {
+    icon = get("key"),
+    color = palette.yellow,
+    name = "Key",
+  },
+  ["pem"] = {
+    icon = get("pem"),
+    color = palette.yellow,
+    name = "Pem",
   },
   -- ["kt"] = {
   --   icon = "𝙆",
