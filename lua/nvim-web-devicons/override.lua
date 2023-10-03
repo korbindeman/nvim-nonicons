@@ -417,12 +417,12 @@ devicons.set_icon({
     name = "Pem",
   },
   ["favicon.ico"] = {
-      icon = get("star"),
-      color = palette.bright_yellow,
-      name = "Fav",
+    icon = get("star"),
+    color = palette.bright_yellow,
+    name = "Fav",
   },
   [".env"] = {
-    icon = get("sliders")
+    icon = get("sliders"),
     color = palette.bright_yellow,
     name = "Env",
   },
