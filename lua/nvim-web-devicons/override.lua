@@ -479,12 +479,12 @@ devicons.set_icon({
   ["lock"] = {
       icon = get("toml"),
       color = palette.bright_black,
-      name = "CargoLock",
+      name = "Lock",
   },
-  ["Cargo.toml"] = {
+  ["diesel.toml"] = {
       icon = get("toml"),
       color = palette.orange,
-      name = "CargoToml",
+      name = "DieselToml",
   },
 })
 
