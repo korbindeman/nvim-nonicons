@@ -138,7 +138,7 @@ devicons.set_icon({
   },
   ["dockerfile"] = {
     icon = get("docker"),
-    color = palette.bright_blue,
+    color = palette.blue,
     name = "Dockerfile",
   },
   [".dockerignore"] = {
@@ -358,7 +358,7 @@ devicons.set_icon({
   },
   ["tsx"] = {
     icon = get("react"),
-    color = palette.bright_blue,
+    color = palette.blue,
     name = "Tsx",
   },
   ["vim"] = {
@@ -415,6 +415,16 @@ devicons.set_icon({
     icon = get("key"),
     color = palette.yellow,
     name = "Pem",
+  },
+  ["favicon.ico"] = {
+      icon = get("star"),
+      color = palette.bright_yellow,
+      name = "Fav",
+  },
+  [".env"] = {
+    icon = get("sliders")
+    color = palette.bright_yellow,
+    name = "Env",
   },
 })
 
