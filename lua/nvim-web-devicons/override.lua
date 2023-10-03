@@ -25,8 +25,6 @@ local palette = {
   bright_cyan = "#56d4dd",
 }
 
-devicons.setup({ strict = true })
-
 devicons.set_icon({
   ["git"] = {
     icon = get("git-commit"),
