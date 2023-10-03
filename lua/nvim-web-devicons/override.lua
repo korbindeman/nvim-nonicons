@@ -26,11 +26,6 @@ local palette = {
 }
 
 devicons.set_icon({
-  ["svg"] = {
-    icon = get("image"),
-    color = "#FFB13B",
-    name = "Svg"
-  },
   ["git"] = {
     icon = get("git-commit"),
     color = palette.bright_black,
@@ -163,12 +158,12 @@ devicons.set_icon({
   },
   ["htm"] = {
     icon = get("html"),
-    color = palette.bright_red,
+    color = palette.orange,
     name = "Htm",
   },
   ["html"] = {
     icon = get("html"),
-    color = palette.bright_red,
+    color = palette.orange,
     name = "Html",
   },
   ["ico"] = {
@@ -427,17 +422,17 @@ devicons.set_icon({
     name = "Env",
   },
   [".zip"] = {
-    icon = get("file-zip"),
+    icon = get("file"),
     color = palette.green,
     name = "Zip",
   },
-  [".tar"] = {
-    icon = get("file-zip"),
+  [".tar.xz"] = {
+    icon = get("file"),
     color = palette.green,
     name = "Tar",
   },
   [".rar"] = {
-    icon = get("file-zip"),
+    icon = get("file"),
     color = palette.green,
     name = "Rar",
   },
@@ -460,6 +455,21 @@ devicons.set_icon({
     icon = get("eslint"),
     color = palette.magenta,
     name = "EslintrcJson",
+  },
+  [".log"] = {
+      icon = get("log"),
+      color = palette.bright_black,
+      name = "Log",
+  },
+  [".docx"] = {
+      icon = get("file"),
+      color = palette.blue,
+      name = "Docx",
+  },
+  [".xlsx"] = {
+      icon = get("file"),
+      color = palette.green,
+      name = "Xlsx",
   },
 })
 
