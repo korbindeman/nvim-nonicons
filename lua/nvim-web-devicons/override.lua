@@ -442,7 +442,7 @@ devicons.set_icon({
     name = "Rar",
   },
   [".eslintrc"] {
-    icon = get("eslint") 
+    icon = get("eslint"),
     color = palette.magenta,
     name = "Eslintrc",
   },
