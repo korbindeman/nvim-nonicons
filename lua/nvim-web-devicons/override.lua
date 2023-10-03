@@ -446,10 +446,20 @@ devicons.set_icon({
     color = palette.magenta,
     name = "Eslintrc",
   },
-  [".eslintrc."] = {
+  [".eslintrc.cjs"] = {
     icon = get("eslint"),
     color = palette.magenta,
-    name = "Eslintrc",
+    name = "EslintrcCjs",
+  },
+  [".eslintrc.js"] = {
+    icon = get("eslint"),
+    color = palette.magenta,
+    name = "EslintrcJs",
+  },
+  [".eslintrc.json"] = {
+    icon = get("eslint"),
+    color = palette.magenta,
+    name = "EslintrcJson",
   },
 })
 
