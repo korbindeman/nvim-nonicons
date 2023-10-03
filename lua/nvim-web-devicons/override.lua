@@ -446,6 +446,11 @@ devicons.set_icon({
     color = palette.magenta,
     name = "Eslintrc",
   },
+  [".eslintrc."] = {
+    icon = get("eslint"),
+    color = palette.magenta,
+    name = "Eslintrc",
+  },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
