@@ -66,11 +66,6 @@ devicons.set_icon({
     color = palette.bright_black,
     name = "Zshrc",
   },
-  ["Dockerfile"] = {
-    icon = get("docker"),
-    color = palette.blue,
-    name = "Dockerfile",
-  },
   ["Gemfile$"] = {
     icon = get("ruby"),
     color = palette.bright_red,
@@ -130,6 +125,11 @@ devicons.set_icon({
     icon = get("database"),
     color = palette.bright_black,
     name = "Db",
+  },
+  ["Dockerfile"] = {
+    icon = get("docker"),
+    color = palette.blue,
+    name = "Dockerfile",
   },
   ["dockerfile"] = {
     icon = get("docker"),
@@ -481,10 +481,15 @@ devicons.set_icon({
       color = palette.bright_black,
       name = "Lock",
   },
-  ["diesel.toml"] = {
+  ["Cargo.toml"] = {
       icon = get("toml"),
       color = palette.orange,
-      name = "DieselToml",
+      name = "CargoToml",
+  },
+  ["cargo.toml"] = {
+      icon = get("toml"),
+      color = palette.orange,
+      name = "CargoToml",
   },
 })
 
