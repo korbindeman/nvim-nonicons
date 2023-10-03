@@ -427,19 +427,24 @@ devicons.set_icon({
     name = "Env",
   },
   [".zip"] = {
-      icon = get("file-zip"),
-      color = palette.green,
-      name = "Zip",
+    icon = get("file-zip"),
+    color = palette.green,
+    name = "Zip",
   },
   [".tar"] = {
-      icon = get("file-zip"),
-      color = palette.green,
-      name = "Tar",
+    icon = get("file-zip"),
+    color = palette.green,
+    name = "Tar",
   },
   [".rar"] = {
-      icon = get("file-zip"),
-      color = palette.green,
-      name = "Rar",
+    icon = get("file-zip"),
+    color = palette.green,
+    name = "Rar",
+  },
+  [".eslintrc"] {
+    icon = get("eslint") 
+    color = palette.magenta,
+    name = "Eslintrc",
   },
 })
 
