@@ -25,6 +25,8 @@ local palette = {
   bright_cyan = "#56d4dd",
 }
 
+devicons.setup({ strict = true })
+
 devicons.set_icon({
   ["git"] = {
     icon = get("git-commit"),
@@ -470,6 +472,11 @@ devicons.set_icon({
       icon = get("file"),
       color = palette.green,
       name = "Xlsx",
+  },
+  ["csv"] = {
+      icon = get("file"),
+      color = palette.green,
+      name = "Csv",
   },
 })
 
