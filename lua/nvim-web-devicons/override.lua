@@ -491,6 +491,16 @@ devicons.set_icon({
       color = palette.orange,
       name = "CargoToml",
   },
+  ["COMMIT_EDITMSG"] = {
+      icon = get("git-commit"),
+      color = palette.bright_black,
+      name = "CommitEditMsg",
+  },
+  ["commit_editmsg"] = {
+      icon = get("git-commit"),
+      color = palette.bright_black,
+      name = "CommitEditMsg",
+  },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
