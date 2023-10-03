@@ -476,6 +476,16 @@ devicons.set_icon({
       color = palette.green,
       name = "Csv",
   },
+  ["lock"] = {
+      icon = get("toml"),
+      color = palette.bright_black,
+      name = "CargoLock",
+  },
+  ["Cargo.toml"] = {
+      icon = get("toml"),
+      color = palette.orange,
+      name = "CargoToml",
+  },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
