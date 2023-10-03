@@ -73,7 +73,7 @@ devicons.set_icon({
   },
   ["Dockerfile"] = {
     icon = get("docker"),
-    color = palette.bright_blue,
+    color = palette.blue,
     name = "Dockerfile",
   },
   ["Gemfile$"] = {
@@ -418,13 +418,28 @@ devicons.set_icon({
   },
   ["favicon.ico"] = {
     icon = get("star"),
-    color = palette.bright_yellow,
+    color = palette.yellow,
     name = "Fav",
   },
   [".env"] = {
     icon = get("sliders"),
-    color = palette.bright_yellow,
+    color = palette.yellow,
     name = "Env",
+  },
+  [".zip"] = {
+      icon = get("file-zip"),
+      color = palette.green,
+      name = "Zip",
+  },
+  [".tar"] = {
+      icon = get("file-zip"),
+      color = palette.green,
+      name = "Tar",
+  },
+  [".rar"] = {
+      icon = get("file-zip"),
+      color = palette.green,
+      name = "Rar",
   },
 })
 
