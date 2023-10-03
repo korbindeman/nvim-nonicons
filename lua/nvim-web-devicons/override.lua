@@ -421,18 +421,18 @@ devicons.set_icon({
     color = palette.yellow,
     name = "Env",
   },
-  [".zip"] = {
-    icon = get("file"),
+  ["zip"] = {
+    icon = get("file-zip"),
     color = palette.green,
     name = "Zip",
   },
-  [".tar.xz"] = {
-    icon = get("file"),
+  ["tar.xz"] = {
+    icon = get("file-zip"),
     color = palette.green,
     name = "Tar",
   },
-  [".rar"] = {
-    icon = get("file"),
+  ["rar"] = {
+    icon = get("file-zip"),
     color = palette.green,
     name = "Rar",
   },
@@ -456,17 +456,17 @@ devicons.set_icon({
     color = palette.magenta,
     name = "EslintrcJson",
   },
-  [".log"] = {
+  ["log"] = {
       icon = get("log"),
       color = palette.bright_black,
       name = "Log",
   },
-  [".docx"] = {
+  ["docx"] = {
       icon = get("file"),
       color = palette.blue,
       name = "Docx",
   },
-  [".xlsx"] = {
+  ["xlsx"] = {
       icon = get("file"),
       color = palette.green,
       name = "Xlsx",
