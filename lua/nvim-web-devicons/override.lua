@@ -501,6 +501,16 @@ devicons.set_icon({
       color = palette.bright_black,
       name = "CommitEditMsg",
   },
+  ["tex"] = {
+      icon = get("book"),
+      color = palette.green,
+      name = "Tex",
+  },
+  ["xml"] = {
+      icon = get("code"),
+      color = palette.orange,
+      name = "Xml",
+  },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
