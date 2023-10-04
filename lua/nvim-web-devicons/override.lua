@@ -328,7 +328,7 @@ devicons.set_icon({
   },
   ["sql"] = {
     icon = get("database"),
-    color = palette.bright_black,
+    color = palette.cyan,
     name = "Sql",
   },
   ["svg"] = {
@@ -348,7 +348,7 @@ devicons.set_icon({
   },
   ["ts"] = {
     icon = get("typescript"),
-    color = palette.bright_blue,
+    color = palette.blue,
     name = "Ts",
   },
   ["tsx"] = {
