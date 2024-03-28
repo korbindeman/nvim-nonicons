@@ -516,6 +516,11 @@ devicons.set_icon({
     color = palette.red,
     name = "Svelte",
   },
+  ["svelte.config.js"] = {
+    icon = get("javascript"),
+    color = palette.yellow,
+    name = "SvelteConfig",
+  },
 })
 
 devicons.set_default_icon(get("file"), palette.bright_black)
