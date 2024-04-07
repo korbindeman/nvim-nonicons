@@ -308,7 +308,7 @@ devicons.set_icon({
   },
   ["rs"] = {
     icon = get("rust"),
-    color = palette.orange,
+    color = palette.bright_black,
     name = "Rs",
   },
   ["rss"] = {
@@ -481,16 +481,16 @@ devicons.set_icon({
     color = palette.bright_black,
     name = "Lock",
   },
-  ["Cargo.toml"] = {
-    icon = get("toml"),
-    color = palette.orange,
-    name = "CargoToml",
-  },
-  ["cargo.toml"] = {
-    icon = get("toml"),
-    color = palette.orange,
-    name = "CargoToml",
-  },
+  -- ["Cargo.toml"] = {
+  --   icon = get("toml"),
+  --   color = "#b32209",
+  --   name = "CargoToml",
+  -- },
+  -- ["cargo.toml"] = {
+  --   icon = get("toml"),
+  --   color = "#b32209",
+  --   name = "CargoToml",
+  -- },
   ["COMMIT_EDITMSG"] = {
     icon = get("git-commit"),
     color = palette.bright_black,
