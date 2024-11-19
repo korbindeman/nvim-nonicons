@@ -113,7 +113,7 @@ devicons.set_icon({
   },
   ["css"] = {
     icon = get("css"),
-    color = palette.bright_blue,
+    color = "#663399",
     name = "Css",
   },
   ["dart"] = {
